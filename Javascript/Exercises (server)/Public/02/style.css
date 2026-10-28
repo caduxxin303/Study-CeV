@@ -1,0 +1,86 @@
+body {
+  background: sandybrown;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background: saddlebrown;
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  box-shadow: 0 5px 7px darkslategray;
+}
+
+div#main {
+  display: flex;
+  flex-direction: row;
+}
+
+section#form {
+  background: wheat;
+  width: 30%;
+  margin: 15px;
+  margin-right: 5px;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 1px grey;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 4px;
+  margin-top: 8px;
+}
+
+#birthy {
+  outline: none;
+  background: hwb(43 81% 5%);
+  width: 75%;
+  padding: 10px;
+  margin-top: 0;
+  border: solid 3px lightgray;
+  border-radius: 15px;
+}
+
+#radio {
+  flex-direction: row;
+}
+
+#male {
+  accent-color: saddlebrown;
+}
+
+#female {
+  accent-color: saddlebrown;
+}
+
+button {
+  background: hwb(25 7% 46% / 0.5647058823529412);
+  margin: 15px;
+  padding: 10px;
+  width: 60%;
+  border-radius: 15px;
+  box-shadow: 2px 2px 1px rosybrown;
+}
+
+section#result {
+  background: wheat;
+  width: 65%;
+  margin: 15px;
+  margin-left: 5px;
+  padding: 15px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 3px 3px 1px grey;
+}
+
+footer {
+  background: saddlebrown;
+  width: 100%;
+  height: 35px;
+  text-align: center;
+  box-shadow: 0 -1px 7px darkslategray;
+}

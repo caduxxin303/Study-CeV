@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+      Age Report
+    </title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>
+        Age Report
+      </h1>
+    </header>
+    <div id="main">
+      <section id="form">
+      <p>
+        Write your birth year:
+      </p>
+      <input type="text" placeholder="Ex: 2009" id="birthy">
+      <p>
+        Gender:
+      </p>
+      <div id="radio">
+      <input type="radio" name="gender" id="male">
+      <label for="male">
+        Male
+      </label>
+      </div>
+      <div id="radio">
+        <input type="radio" name="gender" id="female" checked>
+      <label for="female">
+        Female
+      </label>
+      </div>
+      <button onclick="verify()">
+        Verify
+      </button>
+      </section>
+      <section id="result">
+        <p id="wedet">
+        Tap the verify button to see the report!
+        </p>
+      </section>
+    </div>
+    <footer>
+      <p>
+        &COPY; CaduXXin303
+      </p>
+    </footer>
+  </body>
+  <script src="script.js" type="text/javascript">
+    
+  </script>
+</html>
